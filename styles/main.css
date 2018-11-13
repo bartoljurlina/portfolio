@@ -15,16 +15,12 @@ nav {
 	width: 65%;
 	height: 60px;
 	margin: 0 auto;
-
-	border: 1px solid black;
 }
 nav>img {
 	position: relative;
 	top: 5px; bottom: 5px;
 	left: 1%;
 	height: 50px;
-
-	border: 1px solid black;
 }
 nav>ul {
 	width: auto;
@@ -70,8 +66,6 @@ nav>ul>li>a {
 	top: 15px; bottom: 15px;
 	right: 1%;
 	cursor: pointer;
-
-	border: 1px solid black;
 }
 
 .three {
