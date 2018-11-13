@@ -18,8 +18,8 @@ nav {
 }
 nav>img {
 	position: relative;
-	top: 5px; bottom: 5px;
-	left: 1%;
+	top: 10px; bottom: 5px;
+	left: 5%;
 	height: 50px;
 }
 nav>ul {
@@ -64,7 +64,7 @@ nav>ul>li>a {
 	height: 30px;
 	position: absolute;
 	top: 15px; bottom: 15px;
-	right: 1%;
+	right: 5%;
 	cursor: pointer;
 }
 
