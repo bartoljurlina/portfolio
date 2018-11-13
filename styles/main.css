@@ -13,17 +13,19 @@ header {
 nav {
 	position: relative;
 	padding: 10px;
-	width: 60%;
+	width: 65%;
 	margin: 0 auto;
 }
 nav>img {
+	position: relative;
+	top: 5px;
 	height: 50px;
 	width: auto;
 }
 nav>ul {
 	width: auto;
 	position: absolute;
-	right: 5%;
+	right: 0;
 	top: 50%;
 	transform: translateY(-50%);
 	list-style: none;
@@ -57,6 +59,17 @@ nav>ul>li>a {
 	transform: translateX(-50%);
 }
 
+.nav-btn {display: none;}
+#nav-check {displa: none;}
+
+@media only screen and (max-width: 1024px) {
+	nav {
+		width: 100%;
+	}
+	.container>img {
+		width: 100%;
+	}
+}
 @media only screen and (max-width: 768px) {
 	.container>img {
 		width: 180%;
@@ -64,5 +77,20 @@ nav>ul>li>a {
 		transform: translateX(0);
 		right: 0;
 		bottom: 10%;
+	}
+	.nav-btn {
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 50px;
+		height: 50px;
+		padding: 10px;
+	}
+	.nav-btn>span {
+		display: block;
+		width: 25px;
+		height: 10px;
+		border-top: 1px solid black;
 	}
 }
